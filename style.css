@@ -1,0 +1,66 @@
+body{
+margin:0;
+font-family: 'Inter', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+
+.header-part{
+    background-image: url('images/Banner.png');
+    background-color:#070211;
+    background-blend-mode:difference;
+    background-repeat: no-repeat;
+    height: 465px;
+    background-size: contain;
+    border-radius: 16px;
+    margin: 50px 140px;
+
+   
+}
+
+.header-title{
+color: #FFF;
+text-align: center;
+font-family: Merriweather;
+font-size: 30px;
+padding-top: 150px;
+
+}
+.header-subtitle{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    
+}
+
+.discount{
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.discount-title{
+color: rgba(3, 29, 79, 0.834);
+text-align: center;
+font-family: Inter;
+font-size: 55px;
+font-weight: 700;
+margin-bottom: 10px;
+}
+.discount-subtitle{
+color: rgba(3, 29, 79, 0.834);
+font-family: Inter;
+font-size: 18px;
+font-weight: 500;
+}
+
+.discount-category{
+color: #070211;
+font-family: Inter;
+font-size: 30px;
+font-weight: 700;
+}
+
