@@ -200,6 +200,45 @@ height: 100px;
 }
 
 
+.holiday-content{
+    margin: 0 140px 100px 140px; 
+}
+.about-holiday{
+    text-align: center;
+}
+
+.holiday-title{
+color: #070211;
+font-family: Inter;
+font-size: 15px;
+font-weight: 600;
+}
+.holiday-subtitle{
+font-family: Merriweather;
+font-size: 55px;
+font-weight: 900;
+}
+.holiday-subtitle span{
+  color: #F00;
+}
+
+.holiday-description{
+color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 15px;
+line-height: 25px;
+}
+.holiday-bottom-part{
+    margin-top: 100px;
+    background-image: url('images/Rectangle2.png'),url('images/Rectangle1.png');
+    background-repeat: no-repeat;
+    background-position: bottom,  right top; 
+    border-radius: 14px 0px 14px 14px;
+    padding-bottom:200px;  
+}
+
+
+
 .portfolio {
     margin: 0 140px 100px 140px;
 }
@@ -240,52 +279,52 @@ padding-right: 220px;
     border-radius: 30%;
 }
 
-.holiday-content{
-    margin: 0 140px 100px 140px; 
-}
-.about-holiday{
+.Subscribe-content{
+    margin: 0 140px 100px 140px;
+    background: rgba(255, 0, 0, 0.05);  
+    border-radius: 16px;
     text-align: center;
+    padding: 50px 200px 100px 200px;
+    
 }
-
-.holiday-title{
-color: #070211;
-font-family: Inter;
-font-size: 15px;
-font-weight: 600;
+.Subscribe-content img{
+height: 100px;
 }
-.holiday-subtitle{
-font-family: Merriweather;
-font-size: 55px;
+.subscribe-title{
+ color: #070211;
+ font-family: Merriweather;
+font-size: 30px;
 font-weight: 900;
-}
-.holiday-subtitle span{
-  color: #F00;
-}
 
-.holiday-description{
-color: rgba(7, 2, 17, 0.60);
+}
+.subscribe-description{
+ color: rgba(7, 2, 17, 0.60);
 font-family: Inter;
 font-size: 15px;
 line-height: 25px;
 }
-.holiday-bottom-part{
-    margin-top: 100px;
-    background-image: url('images/Rectangle2.png'),url('images/Rectangle1.png');
-    background-repeat: no-repeat;
-    background-position: bottom,  right top; 
-    border-radius: 14px 0px 14px 14px;
-    padding-bottom:200px;  
+
+input[type="email"]{
+width: 350px;
+height: 40px;
+border-radius: 50px;
+border: none;
+background: #FFF;
+padding: 5px 25px;
 }
 
-.bottom-pic1{
-   
+.sub-btn{
+color: #FFF;
+width: 180px;
+height: 50px;
+border-radius: 50px;
+border: none;
+background: #F00;
+padding: 5px 25px;
+font-family: Inter;
+font-size: 15px;
+font-weight: 600;
 }
-
-
-
-
-
-
 
 footer{
     background: #070211;
