@@ -31,7 +31,7 @@ body {
     font-family: Merriweather;
     font-size: 55px;
     font-weight: 700;
-    padding: 0 150px 100px 150px;
+    padding: 0 170px 100px 170px;
 
 }
 
@@ -142,6 +142,54 @@ body {
     text-decoration: none;
 }
 
+.coming-soon-content{
+    display:flex;
+    justify-content: space-between;
+    margin: 0 140px 100px 140px;
+    gap:88px;
+
+}
+
+.best-offer-title{
+color: #F00;
+font-family: Inter;
+font-size: 18px;
+font-weight: 500;
+}
+.best-offer-subtitle{
+color: #070211;
+font-family: Merriweather;
+font-size: 30px;
+font-weight: 900;
+}
+.best-offer-description{
+color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 15px;
+line-height: 25px;
+}
+
+.best-offer-pic img{
+    border: 10px solid rgba(3, 29, 79, 0.834);
+    border-radius: 463px;
+    padding:20px;
+    height: 250px;
+    
+}
+
+.best-offer-header{
+    color:rgba(3, 29, 79, 0.834);
+    font-family: Inter;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.best-offer-2024 img{
+width: 100px;
+height: 100px;
+}
+
+
 .portfolio {
     margin: 0 140px 100px 140px;
 }
@@ -179,7 +227,7 @@ padding-right: 220px;
 
 footer{
     background: #070211;
-    height: 600px;
+    height: 570px;
     color: #FFF;
     font-family: Inter;
     font-size: 15px;
