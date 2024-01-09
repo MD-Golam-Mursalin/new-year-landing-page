@@ -1,123 +1,131 @@
-body{
-margin:0;
-font-family: 'Inter', sans-serif;
-font-family: 'Merriweather', serif;
-font-family: 'Open Sans', sans-serif;
-font-family: 'Work Sans', sans-serif;
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
 
-.header-part{
-    background-image:linear-gradient(180deg,#070211, rgba(7, 2, 17, 0.00)), url('images/Banner.png');
+.header-part {
+    background-image: linear-gradient(180deg, #070211, rgba(7, 2, 17, 0.00)), url('images/Banner.png');
     background-size: cover;
-    background-repeat: no-repeat;   
-    height: 460px;
+    background-repeat: no-repeat;
+    height: 470px;
     border-radius: 16px;
     margin: 50px 140px 0 140px;
 }
 
-.header-title{
-color: #FFF;
-text-align: center;
-font-family: Inter;
-font-size: 23px;
-font-weight: 400;
-padding-top: 150px;
+.header-title {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 23px;
+    font-weight: 400;
+    padding-top: 150px;
 
 }
-.header-subtitle{
+
+.header-subtitle {
     color: #FFF;
     text-align: center;
     font-family: Merriweather;
     font-size: 55px;
     font-weight: 700;
     padding: 0 150px 100px 150px;
-    
+
 }
 
-.discount{
+.discount {
     text-align: center;
     margin: 100px 200px 100px 200px;
 }
 
-.discount-title{
-color: rgba(3, 29, 79, 0.834);
-text-align: center;
-font-family: Inter;
-font-size: 65px;
-font-weight: 900;
-margin-bottom: 40px;
+.discount-title {
+    color: rgba(3, 29, 79, 0.834);
+    text-align: center;
+    font-family: Inter;
+    font-size: 65px;
+    font-weight: 900;
+    margin-bottom: 40px;
 }
 
-.discount-subtitle{
-color: rgba(3, 29, 79, 0.834);
-font-family: Inter;
-font-size: 17px;
-font-weight: 600;
+.discount-subtitle {
+    color: rgba(3, 29, 79, 0.834);
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 600;
 }
 
-.discount-category{
-color: #070211;
-font-family: Inter;
-font-size: 30px;
-font-weight: 700;
-margin-bottom: 40px;
+.discount-category {
+    color: #070211;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 40px;
 }
 
-.discount-pic{
-    width:550px ;
+.discount-pic {
+    width: 550px;
 }
 
 
-.midnight-part{
+.midnight-part {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-image: linear-gradient(90deg, #070211, rgba(7, 2, 17, 0.00)),url("images/Vectorrr.png");
+    background-image: linear-gradient(90deg, #070211, rgba(7, 2, 17, 0.00)), url("images/Vectorrr.png");
     background-size: cover;
     border-radius: 5px;
     height: 460px;
     margin: 0 140px 0 140px;
 
 }
-.midnight-content{
+
+.midnight-content {
     padding: 120px 30px 140px 120px;
 }
-.midnight-title{
-color: #FFF;
-font-family: Merriweather;
-font-size: 55px;
-line-height: 65px;
-margin-bottom: 0;
+
+.midnight-title {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 55px;
+    line-height: 65px;
+    margin-bottom: 0;
 }
 
-.midnight-description{
-color: rgba(255, 255, 255, 0.80);
-font-family: Inter;
-font-size: 13px;
-line-height: 20px; 
+.midnight-description {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 13px;
+    line-height: 20px;
 }
-.midnight-pic{
+
+.midnight-pic {
     height: 300px;
-    padding:60px 110px 60px 0;
-    
+    padding: 60px 110px 60px 0;
+
 }
-.party-info{
+
+.party-info {
     margin: 100px 140px 100px 140px;
     background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10), rgba(255, 0, 0, 0.00));
     padding: 100px 340px 200px 340px;
     text-align: center;
 }
-.party-title{
-font-family: Inter;
-font-size: 19px;
-font-weight: 700;
-line-height: 14px; 
-text-transform: capitalize;
+
+.party-title {
+    font-family: Inter;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 14px;
+    text-transform: capitalize;
 }
-.party-title span{
+
+.party-title span {
     color: rgba(3, 29, 79, 0.834);
 }
-.primary-btn{
+
+.primary-btn {
     font-family: Inter;
     font-size: 18px;
     font-weight: 700;
@@ -128,7 +136,78 @@ text-transform: capitalize;
     border-radius: 5px;
 
 }
-.primary-btn a{
+
+.primary-btn a {
     color: #FFF;
     text-decoration: none;
 }
+
+.portfolio {
+    margin: 0 140px 100px 140px;
+}
+
+.portfolio-title{
+color: #F00;
+font-family:Inter;
+font-size: 18px;
+font-weight: 500;
+}
+.portfolio-sub-title{
+color: #070211;
+font-family: Merriweather;
+font-size: 30px;
+font-weight: 900;
+}
+.portfolio-description{
+color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 15px;
+line-height: 25px;
+text-align: justify;
+padding-right: 220px; 
+}
+
+.gifts{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.gifts img{
+    height: 345px;
+}
+
+footer{
+    background: #070211;
+    height: 600px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 140px 50px 140px;
+}
+.footer-icons{
+   display: flex;
+   justify-content: center;
+   gap:20px;
+   height: 50px;
+   padding-top:35px ;
+   padding-bottom: 35px;
+}
+hr{
+    margin-left: 140px ;
+    margin-right:140px ; 
+
+}
+.footer-unsubscribe{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 140px  0 140px;
+}
+
+
+
